@@ -1,0 +1,29 @@
+{
+  "name": "my-react-hooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.common.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bingoYB/my-react-hooks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bingoYB/my-react-hooks/issues"
+  },
+  "homepage": "https://github.com/bingoYB/my-react-hooks#readme",
+  "devDependencies": {
+    "ahooks": "^3.7.4",
+    "lerna": "^6.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
